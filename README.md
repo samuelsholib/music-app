@@ -1,2 +1,2 @@
-# music-to-go-with
+# music-to-go
 readme
