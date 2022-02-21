@@ -1,2 +1,3 @@
-# music-to-go
+# music-app
+
 readme
