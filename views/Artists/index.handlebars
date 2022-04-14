@@ -1,0 +1,24 @@
+<div class="message-header">
+    <p>Artists</p>
+</div>
+<div class="container">
+    {{#each artists as |artist|}}
+    <div class="card">
+        <div class="card-content">
+            <div class="content">
+           
+                <a href="/artists/{{artist.id}}">
+                    <div id="artist-{{artist.id}}" class="artists index">
+                        <h3>{{artist.name}}</h3>
+                        <p><img id="artist-image-{{artist.id}}" class="image" src="{{artist.imgur_url}}"
+                                alt="{{artist.name}} Image" /></p>
+                    </div>
+
+                </a>
+                
+                <br>
+            </div>
+        </div>
+    </div>
+     {{/each}}
+</div>

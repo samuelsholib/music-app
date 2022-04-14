@@ -1,0 +1,25 @@
+<div class="message-header">
+    <p>Songs</p>
+</div>
+<div class="container">
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+    <ul>
+        {{#each songs as |song|}}
+        <li>
+            {{#if ../logged_in}}
+                    <a class="btn btn-sm btn-info" href="/playlists/addSong/{{song.id}}"><span
+                        class="material-icons-outlined">playlist_add</span></a>
+                
+                {{/if}}
+                <a href="/songs/{{song.id}}">{{song.name}}</a> by <a
+                    href="/artists/{{song.artists.[0].id}}">{{song.artists.[0].name}}</a>
+        </li>
+
+        {{/each}}
+    </ul>
+ </div>
+  </div>
+</div>   
+  </div>

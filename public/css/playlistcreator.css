@@ -1,0 +1,133 @@
+.image{max-width: 250px !important;}
+body{margin:0 auto !important;
+width: 80% !important; 
+}
+
+
+/* body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background.jpg")no-repeat center center fixed;
+}
+
+header {
+    background-color: #ff7f50;
+    padding: 1rem;
+}
+
+header img.logo-img {
+    height: 5rem;
+    margin-right: 2rem;
+}
+
+footer {
+    background-color: #ff7f50;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    background-color: #f5f5dc;
+    padding: 1rem;
+}
+
+.listing {
+    border-bottom: 2px solid #000;
+}
+
+.hideOnUpload {
+    display: block !important;
+}
+
+.showOnUpload {
+    display: none !important;
+}
+
+div .index {
+    border: 2px solid #000;
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.image {
+    max-width: 350px;
+}
+
+dt {
+    min-width: 25%;
+}
+
+a.btn:hover {
+    text-decoration: none;
+}
+
+ul.songs-list {
+    list-style-type: none;
+}
+
+a.btn {
+    margin-bottom: 5px !important;
+}
+
+form select {
+    padding: 0.5rem 1.5rem;
+    line-height: 1.5;
+}
+.Signup{display: none;
+    position: absolute;
+    border: 3px solid purple;
+    top: 30%;
+    left: 36%;
+    box-shadow:4px 4px 4px rgb(77, 74, 74, .6);
+    
+   }
+.form-container{
+    max-width: 800px;
+    padding: 80px;
+    background-color: white;
+    border: black;
+    border-style: solid;
+    background-image: url("musicNotes.jpeg");
+    
+}
+.form-content{
+    right: 30%; 
+}
+.form-container input[type=userName]:focus, .form-container input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .Create-title{
+      font-size: xx-large;
+      font-weight: bolder;
+      font-style: italic;
+      border-style: solid;
+      padding: 2px;
+      background: rgba(211, 207, 207, 0.3);
+      text-decoration: black;
+      box-shadow: 4px 4px 4px rgb(77, 74, 74, .6);
+  }
+  *.text{
+      font-size: large;
+      font-weight: bold;
+  }
+.btn{
+    font-size: x-large;
+     padding: 2%;
+     margin: 1%;
+     background-color: rgba(169, 169, 175, .1);
+     box-shadow: 4px 4px 4px rgb(77, 74, 74, .6);
+     display: inline;
+
+ }
+ .btn-cancel{
+    font-size: x-large;
+     padding: 2%;
+     margin: 1%;
+     background-color: rgba(169, 169, 175, .1);
+     box-shadow: 4px 4px 4px rgb(77, 74, 74, .6);
+display: inline;
+ }
+ *.signup-input{
+     padding: 1%;
+     box-shadow: 1px 1px 1px rgb(77, 74, 74, .6);
+ } */

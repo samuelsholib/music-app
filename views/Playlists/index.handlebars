@@ -1,0 +1,37 @@
+
+<div class="message-header">
+    <h2>{{#if isMine}}My {{/if}}Playlists</h2>
+</div>
+<nav>
+    <a class="btn btn-black" href="/playlists/add"><span class="material-icons-outlined">playlist_add_circle</span>create a new playlist</a>
+</nav>
+<div class="container">
+    {{#each playlists as |playlist|}}
+      <div class="card">
+  <div class="card-content">
+    <div class="content">
+    <div id="playlist-{{playlist.id}}" class="playlists index">
+        <h3><a href="/playlists/{{playlist.id}}">{{playlist.name}}</a></h3>
+        <p>{{playlist.description}}</p>
+        {{#each playlist.songs as |song| }}
+            <li>
+                {{#if ../../logged_in}}
+                    <a class="btn btn-sm btn-info" href="/playlists/addSong/{{song.id}}"><span
+                        class="material-icons-outlined">playlist_add</span></a>
+                {{/if}}
+                {{#if ../../isMine}}
+                    <a class="btn btn-sm btn-danger" href="/playlists/removeSong/{{../playlist.id}}/{{song.id}}"><span
+                        class="material-icons-outlined">playlist_remove</span></a>
+                {{/if}}
+                <a href="/songs/{{song.id}}">{{song.name}}</a> by <a
+                    href="/artists/{{song.artists.[0].id}}">{{song.artists.[0].name}}</a>
+            </li>
+        {{/each}}
+        </ul>
+    </div>
+    </div>
+</div>   
+    </div>
+
+    {{/each}}
+</div>

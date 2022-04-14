@@ -1,0 +1,23 @@
+<div class="message-header">
+      <p>Discover a New Musical Artist</p>
+     
+    </div>
+
+
+<div id="artist-{{artist.id}}" class="container artist">
+  <h3><a href="/artists/{{artist.id}}">{{artist.name}}</a></h3>
+  <p class="genres"><em>{{{build_genres artist.genres}}}</em></p>
+  <p><a href="/artists/{{artist.id}}"><img src="{{artist.imgur_url}}" alt="Image for {{artist.name}}" class="image" /></a></p>
+  {{#if artist.songs}}
+  <ul id="artist-{{artist.id}}-songs" class="songs-list">
+    {{#each artist.songs as |song|}}
+    <li id="artist-{{../artist.id}}-song-{{song.id}}">
+    {{#if ../logged_in}}
+      <a class="btn btn-sm btn-round btn-info addToPlaylist" href="/playlists/addSong/{{song.id}}"><span class="material-icons-outlined">playlist_add</span></a>
+    {{/if}}
+      <a href="/songs/{{song.id}}">{{song.name}}</a>
+    </li>
+    {{/each}}
+  </ul>
+  {{/if}}
+</div>
