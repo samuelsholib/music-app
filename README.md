@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Melody Medley
 ![status: stable](https://img.shields.io/badge/stable-version%201.0-green)
 
@@ -41,3 +42,8 @@ This work is licensed under GNU General Publice License v3.0.
 Visit [the app's GitHub repo](https://github.com/jcnolan9/Project2_FullStackApp)
 
 To reach the team with additional questions, reach out to the [project contributors](https://github.com/jcnolan9/Project2_FullStackApp/graphs/contributors).
+=======
+# music-app
+
+readme
+>>>>>>> 6067d1b82ef5808e7ac9606ba2c291692bf644a2
